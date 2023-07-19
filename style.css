@@ -21,11 +21,11 @@ img{
     align-items: center;
 }
 .content h1{
-    font-size: 5vh;
+    font-size: 8vh;
 }
 .content p{
     width: 80%;
-    font-size: 2.5vh;
+    font-size: 3vh;
 }
 .content button{
     /* width: 40%; */
@@ -50,6 +50,9 @@ img{
   }
 
 @media only screen and (max-width: 992px) {
+    .details-content{
+        width: 100%;
+    }
     .content p{
         width: 70%;
         font-size: 1vh;
@@ -67,11 +70,11 @@ img{
         width: 70%;
     }
     .content h1{
-        font-size: 2vh;
+        font-size: 2.5vh;
     }
     .content p{
         width: 80%;
-        font-size: 1vh;
+        font-size: 1.3vh;
     }
   }
 
