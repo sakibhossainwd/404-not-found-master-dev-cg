@@ -34,11 +34,19 @@ img{
     color: #ffffff;
     padding: 2% 3%;
 }
-
+@media only screen and (max-width: 1400px){
+    .content h1{
+        font-size: 6vh;
+    }
+    .content p{
+        width: 70%;
+        font-size: 2vh;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     .content h1{
-        font-size: 3vh;
+        font-size: 4vh;
     }
     .content p{
         width: 70%;
@@ -52,6 +60,9 @@ img{
 @media only screen and (max-width: 992px) {
     .details-content{
         width: 100%;
+    }
+    .content h1{
+        font-size: 3vh;
     }
     .content p{
         width: 70%;
